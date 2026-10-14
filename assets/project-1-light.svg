@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" role="img" aria-label="codex-agy-worker-skill — Give workers a boundary; verify what they actually changed."><title>codex-agy-worker-skill — Give workers a boundary; verify what they actually changed.</title><style><![CDATA[
+ :root{--bg:#F3F6F9;--paper:#253040;--acid:#3D6488;--rust:#9B7656;--mute:#667686;--rule:#C7D0D9;--core:#9BA9B7;--quiet:#778698;--panel:#E9EEF3}
+ .mono{font-family:'DejaVu Sans Mono',Consolas,'Liberation Mono',monospace;letter-spacing:1px}
+ .name{font-family:'DejaVu Sans Mono',Consolas,'Liberation Mono',monospace;font-weight:750;letter-spacing:-5px}
+ .r{stroke:var(--rule);stroke-width:1;fill:none}
+ .base{fill:none;stroke:var(--core);stroke-width:1.2;opacity:.50}
+ .active{fill:none;stroke:var(--acid);stroke-width:2;opacity:.87;animation:glow 5s ease-in-out var(--delay) infinite}
+ .hot{fill:none;stroke:var(--rust);stroke-width:2;opacity:.80;animation:glow 4s ease-in-out var(--delay) infinite}
+ .spin{fill:none;stroke:var(--acid);stroke-width:1.35;stroke-dasharray:4 11;animation:rot 24s linear infinite}
+ @keyframes glow{0%,100%{opacity:.48}50%{opacity:1}}@keyframes rot{to{stroke-dashoffset:-640}}
+ @media(prefers-reduced-motion:reduce){.active,.hot,.spin{animation:none}}
+ ]]></style><path class="r" d="M0 .6H1200M0 85.5H1200"/>
+ <text x="12" y="52" font-family="'DejaVu Sans Mono',Consolas,monospace" fill="var(--acid)" font-size="20">01</text>
+ <path class="r" d="M58 17V68"/>
+ <text x="78" y="35" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="25" font-weight="bold" fill="var(--paper)">codex-agy-worker-skill</text>
+ <text x="80" y="60" font-family="'DejaVu Sans',Arial,sans-serif" font-size="16" fill="var(--mute)">Give workers a boundary; verify what they actually changed.</text>
+ <text x="924" y="15" class="mono" font-size="10" fill="var(--quiet)">AGENT TOOLING</text>
+ <path d="M1000 42h34l17-15h35l19 15h32" stroke="var(--mute)" fill="none"/><circle cx="1000" cy="42" r="5" fill="var(--acid)"/><circle cx="1051" cy="27" r="5" fill="var(--rust)"/><circle cx="1105" cy="42" r="5" fill="var(--acid)"/><path d="M1000 57h135" stroke="var(--acid)" stroke-dasharray="1 8" stroke-width="2"/>
+ <text x="1185" y="72" text-anchor="end" fill="var(--acid)" class="mono" font-size="11">↗ REPO</text>
+ </svg>

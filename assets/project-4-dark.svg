@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" role="img" aria-label="Dynamic-RPC — A small RPC framework built with Netty and ZooKeeper."><title>Dynamic-RPC — A small RPC framework built with Netty and ZooKeeper.</title><style><![CDATA[
+ :root{--bg:#12161D;--paper:#EDF1F5;--acid:#9BBBD9;--rust:#C9A17A;--mute:#9AA8B8;--rule:#35414D;--core:#51606F;--quiet:#748292;--panel:#19212B}
+ .mono{font-family:'DejaVu Sans Mono',Consolas,'Liberation Mono',monospace;letter-spacing:1px}
+ .name{font-family:'DejaVu Sans Mono',Consolas,'Liberation Mono',monospace;font-weight:750;letter-spacing:-5px}
+ .r{stroke:var(--rule);stroke-width:1;fill:none}
+ .base{fill:none;stroke:var(--core);stroke-width:1.2;opacity:.50}
+ .active{fill:none;stroke:var(--acid);stroke-width:2;opacity:.87;animation:glow 5s ease-in-out var(--delay) infinite}
+ .hot{fill:none;stroke:var(--rust);stroke-width:2;opacity:.80;animation:glow 4s ease-in-out var(--delay) infinite}
+ .spin{fill:none;stroke:var(--acid);stroke-width:1.35;stroke-dasharray:4 11;animation:rot 24s linear infinite}
+ @keyframes glow{0%,100%{opacity:.48}50%{opacity:1}}@keyframes rot{to{stroke-dashoffset:-640}}
+ @media(prefers-reduced-motion:reduce){.active,.hot,.spin{animation:none}}
+ ]]></style><path class="r" d="M0 .6H1200M0 85.5H1200"/>
+ <text x="12" y="52" font-family="'DejaVu Sans Mono',Consolas,monospace" fill="var(--acid)" font-size="20">04</text>
+ <path class="r" d="M58 17V68"/>
+ <text x="78" y="35" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="25" font-weight="bold" fill="var(--paper)">Dynamic-RPC</text>
+ <text x="80" y="60" font-family="'DejaVu Sans',Arial,sans-serif" font-size="16" fill="var(--mute)">A small RPC framework built with Netty and ZooKeeper.</text>
+ <text x="924" y="15" class="mono" font-size="10" fill="var(--quiet)">BACKEND / RPC</text>
+ <path d="M998 17h48v53h-48zM1090 17h48v53h-48zM1046 34h44M1046 56h44" stroke="var(--mute)" fill="none" stroke-width="1.2"/><circle cx="1046" cy="34" r="4" fill="var(--acid)"/><circle cx="1090" cy="56" r="4" fill="var(--rust)"/><path d="M1007 29h30m-30 9h18m-18 9h30m62-18h30m-30 9h19m-19 9h30" stroke="var(--acid)" stroke-width="1.2"/>
+ <text x="1185" y="72" text-anchor="end" fill="var(--acid)" class="mono" font-size="11">↗ REPO</text>
+ </svg>
